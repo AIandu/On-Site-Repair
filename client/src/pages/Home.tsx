@@ -15,6 +15,7 @@ import {
   HeartHandshake 
 } from "lucide-react";
 import { motion } from "framer-motion";
+import repairImage from '@assets/generated_images/modern_smartphone_repair_technician_workstation.png';
 
 export default function Home() {
   return (
@@ -86,7 +87,7 @@ export default function Home() {
               <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl border-4 border-white rotate-2 hover:rotate-0 transition-transform duration-500">
                 {/* Hero repair image */}
                 <img 
-                  src="https://pixabay.com/get/g2b73cca50e9618d4f6d5b022ffc77aa7d5e2e893459ce7ed4d9f82f288a792cd1d73e6b04fb4ea80e4e0e8e76e822de40e2e46e985d628581ddce0baf5b65de4_1280.jpg" 
+                  src={repairImage} 
                   alt="Mobile phone repair technician working"
                   className="w-full h-auto object-cover"
                 />
@@ -180,7 +181,7 @@ export default function Home() {
               <div className="absolute -inset-4 bg-gradient-to-tr from-blue-100 to-purple-100 rounded-3xl blur-2xl -z-10" />
               {/* Technician repairing phone closeup */}
               <img 
-                src="https://pixabay.com/get/gaacf183a12e100ca844bdf8f6044bf90d09e7a21dd73da06fa0a02b01b642acc1958df190593036fdba21b3586c74db8ccde6bd0c8d825c5fedd48c305b753c4_1280.jpg" 
+                src={repairImage} 
                 alt="Phone repair process closeup" 
                 className="rounded-2xl shadow-2xl border border-white/50 w-full object-cover h-[400px]"
               />
